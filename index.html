@@ -7,6 +7,7 @@
   <title>Different Animation</title>
   <link rel="stylesheet" href="css/ripple-button.css">
   <link rel="stylesheet" href="css/keyframes-with-delay.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,28 +19,49 @@
       <button class="btn ripple link"><a href="https://github.com/Pakistanka">GitHub</a></button>
     </div>
   </div>
-
   <div class="container2">
-    <div class="conteiner__text">
-      That's animation with delay.
-    </div>
-    <div class="universe">
-      <div class="sun"></div>
-      <div class="planet">
+    <h1 data-name="animate-header" class="conteiner__header">
+      That's my solar system.
+      Effects: parallax, animation CSS
+    </h1>
+    <div class="container__universe" id="js-background">
+      <div class="universe">
+        <div class="sun"></div>
 
-        <div class="venus"></div>
-        <div class="earth"></div>
-        <div class="mars"></div>
-        <div class="jupiter"></div>
-        <div class="saturn"></div>
-        <div class="uranuse"></div>
-        <div class="neptune"></div>
-      </div>
-      <div class="planet2">
-        <div class="mercury"></div>
-      </div>
-    </div>
+        <div class="planet planet_mercury">
+          <div class="mercury"></div>
+        </div>
+        <div class="planet planet_venus">
+          <div class="venus"></div>
+        </div>
+        <div class="planet planet_earth">
+          <div class="earth"></div>
+        </div>
+        <div class="planet planet_mars">
+          <div class="mars"></div>
+        </div>
+        <div class="planet planet_jupiter">
+          <div class="jupiter"></div>
+        </div>
+        <div class="planet planet_saturn">
+          <div class="saturn"></div>
+        </div>
+        <div class="planet planet_uranuse">
+          <div class="uranuse"></div>
+        </div>
+        <div class="planet planet_neptune">
+          <div class="neptune"></div>
+        </div>
+        <div class="planet planet_pluto">
+          <div class="pluto"></div>
+        </div>
 
+      </div>
+
+    </div>
   </div>
+
+  <script src="script.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 </body>
 </html>

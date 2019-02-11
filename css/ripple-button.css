@@ -29,6 +29,7 @@
   background-color: #ffffff;
   font-size: 30px;
   padding: 20px 20px;
+  border: 2px solid #228B22;
 }
 .link a {
     color: #228B22;
@@ -47,7 +48,7 @@
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   outline:inherit;
-  border: inherit;
+  /* border: inherit; */
 }
 .ripple:after {
   content: "";
